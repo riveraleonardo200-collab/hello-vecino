@@ -7,7 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_plains": "2025-08-25 00:23:03 +0000"
+      "minecraft:snowy_plains": "2025-08-25 00:23:03 +0000",
+      "minecraft:jagged_peaks": "2025-08-25 01:37:23 +0000"
     },
     "done": false
   },
@@ -335,6 +336,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 01:37:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 01:37:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2025-08-25 01:26:31 +0000"
@@ -364,6 +377,12 @@
       "minecraft:stray": "2025-08-25 01:27:24 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 01:37:51 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
